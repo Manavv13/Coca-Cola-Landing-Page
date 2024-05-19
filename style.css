@@ -65,5 +65,67 @@ html, body {
 #content{
     height: calc(100% - 140px);
     width: 100%;
-    background-color: lightblue;
+    justify-content: space-between;
+    display: flex;
+}
+
+#left {
+    width: 36%;
+    height: 100%;
+    padding: 160px 40px;
+}
+
+#right{
+    width: 36%;
+    height: 100%;
+    
+}
+
+#center {
+    width: 26%;
+    height: 100%;
+    background-color: green;
+    padding-top: 30px;
+}
+
+#left h1{
+    font-size: 75px;
+    line-height: 75px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+#left h1 span {
+    color: red;
+    font-weight: 400;
+}
+
+#left p{
+    font-size: 18px;
+    width: 70%;
+    margin-bottom: 50px;
+    line-height: 25px;
+
+}
+
+#left button {
+    background-color: red;
+    padding: 20px 40px;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+#left button i{
+    margin-right: 10px;
+}
+
+#centerbg{
+    background-color: blue;
+    height: 85%;
+    width: 100%;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
 }
